@@ -1,4 +1,3 @@
-
 public final class SemaphoreBinaire extends Semaphore {
 public SemaphoreBinaire(int valeurInitiale){
 	super((valeurInitiale != 0) ? 1:0);
